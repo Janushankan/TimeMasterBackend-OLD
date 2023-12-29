@@ -86,7 +86,7 @@ DATABASES = {
 
 import dj_database_url
 
-DATABASES['default'] = dj_database_url.parse('mysql://root@localhost/kms')
+DATABASES['default'] = dj_database_url.parse('mysql://root@localhost/timemaster')
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
